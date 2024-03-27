@@ -8,7 +8,7 @@ class SceneHUD extends Phaser.Scene {
     create () {
         const som = this.sound.add("musicaFundo", {loop: true});
         som.play();
-        console.log('tocandosom')
+        som.setVolume(0.2);
         
         coracoes = [
             this.add.image(120, 50, '3coracao').setScale(0.15).setVisible(false),
