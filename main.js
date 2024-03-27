@@ -92,7 +92,7 @@ const config = {
         default: "arcade",
         arcade: {
             gravity:{y:450},  //gravidade 0 no eixo y (player não cai)
-            debug: true,
+            debug: false,
         }
     },
     scale: {
